@@ -2,7 +2,13 @@ title: Just the Docs Template
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://m1tchg.github.io/portfolio
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "CNAME"]
+parallel_localization: true
+serial_default_lang: true
